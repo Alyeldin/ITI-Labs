@@ -10,6 +10,6 @@ img {
 }
 img:hover {
     /* border: 5px solid rgb(0, 0, 0); */
-    transform: scaleY(-1);
+    transform:translateX(420px);
     
 }
