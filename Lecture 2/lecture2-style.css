@@ -1,3 +1,15 @@
 div span:nth-child(2) {
     color: red;
 }
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    border-radius: 50%;
+}
+img:hover {
+    /* border: 5px solid rgb(0, 0, 0); */
+    transform: scaleY(-1);
+    
+}
