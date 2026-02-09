@@ -8,8 +8,42 @@ img {
     border-radius: 5px;
     border-radius: 50%;
 }
-img:hover {
+#trial:hover {
     /* border: 5px solid rgb(0, 0, 0); */
-    transform:translateX(420px);
+    transform:translateX(500px);
     
+}
+
+#auto {
+    /* width: 300px; */
+    /* height: 200px; */
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    background-image: url("../images/dairy.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+#contain {
+    width: 400px;
+    height: 400px;
+    background-image: url(../images/dairy.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#cover {
+   width: 400px;
+    height: 400px;
+    background-image: url(../images/dairy.jpg);
+    background-size: cover;   
+    background-repeat: no-repeat;
+}
+
+#padding {
+    background-color: lightblue;
+    padding: 50px;
+}
+#margin {
+    background-color: lightblue;
+    margin: 50px;
 }
