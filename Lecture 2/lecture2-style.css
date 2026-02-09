@@ -47,3 +47,55 @@ img {
     background-color: lightblue;
     margin: 50px;
 }
+
+#imgfloat{
+    float: right;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+}
+#parent
+{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    padding: 10px;
+    position: static;
+}
+
+#parent div
+{
+    height: 50px;
+}
+#one{
+    background-color: tomato;
+    /* position: left; */
+  
+}
+#two{
+    background-color: gold;
+    position :sticky;
+    bottom: 0px;
+}
+#three{
+    background-color: darkviolet;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+
+}
+
+#flex{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#flex div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
