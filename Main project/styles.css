@@ -270,7 +270,7 @@ footer {
 }
 #contact {
     padding: 50px;
-    width: 75%;
+    width: 50%;
     display: flex;
     background-color: #d5d5d5;
     font-family: Arial, Helvetica, sans-serif;
@@ -304,6 +304,8 @@ footer {
 #contact button{
     background-color: #008000; 
   color: #ffffff;
+  width: 50%;
+  margin: 0 auto;
   border: none;
   padding: 14px 32px;
   font-size: 12px;
